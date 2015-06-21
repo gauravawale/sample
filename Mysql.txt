@@ -7,3 +7,5 @@ CREATE TABLE user (ID int primary key AUTO_INCREMENT, firstname varchar(255) NOT
 
 CREATE TABLE money (ID int primary key AUTO_INCREMENT, firstname varchar(255) NOT NULL, lastname varchar(255), transaction INT(10) not null, created datetime DEFAULT NOW(), userid int not null)
 
+test changes
+
