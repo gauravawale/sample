@@ -1,4 +1,4 @@
-CREATE TABLE user (id INT(10), firstname VARCHAR(40), lastname varchar(40), created DATE);
+aCREATE TABLE user (id INT(10), firstname VARCHAR(40), lastname varchar(40), created DATE);
 
 insert into user (id, firstname, lastname, created) values (1, 'Gaurav', 'Awale', sysdate()), (2, 'Pooja', 'Jain', sysdate()), (3, 'Monika', 'Dialani', sysdate());
 
